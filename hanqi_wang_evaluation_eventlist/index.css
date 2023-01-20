@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.todo-list-app {
+    border: 1px solid black;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding: 3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+}
+
+#add-event-btn {
+    background-color: #008cba;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#save-event-btn,
+#cancel-event-btn {
+    background-color: #008cba;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#add-event-form {
+    margin-top: 16px;
+}
